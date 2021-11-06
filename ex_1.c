@@ -1,8 +1,11 @@
 #include <stdio.h>
-
-int main()
-{
-    printf("Hello World");
-
-    return 0;
+int main() {
+	int i;
+	for (i = 0; i < 100; i++)
+	{
+		if (i % 2 == 0) {
+			printf(, i);
+		}
+	}
+	return 0;
 }
