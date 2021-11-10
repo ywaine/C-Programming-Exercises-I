@@ -3,12 +3,11 @@
 
 int main()
 {
-	int a, b, c;
-	a = 1;
-	c = 7 * a;
+	int a, b;
+	a = 1;b = 7 * a;
 	for (int a = 1;a < 10; a++) {
-		c = 7 * a;
-		printf("7 * %d = %d\n", a, c);
+		b = 7 * a;
+		printf("7 * %d = %d\n", a, b);
 	}
 }
 
