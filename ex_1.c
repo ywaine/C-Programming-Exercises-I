@@ -1,3 +1,5 @@
+/*Print even no btw 0 to 100*/
+
 #include <stdio.h>
 //Adding comments
 	//main method returns an integer value
@@ -12,6 +14,7 @@ int main() {
 		if (i % 2 == 0) {
 			//- print i on a new line
 			printf("%d\n", i);
+
 		}
 	}
 	return 0;

@@ -1,16 +1,14 @@
+/*4. Print 7 times table*/
 #include <stdio.h>
 //main method
 int main()
 {
-	//declared variable i to track loops, ans to display the final answer
-	int i;
-	int ans;
-	//loop runs 9 times
-	for (i = 1; i < 10; i++) {
-		//compute answer
-		ans = 7 * i;
-		printf("\n7 x %d = %d", i, ans);
-		//set ans to 0
-		ans = 0;
+	int a, b;
+	a = 1;b = 7 * a;
+	for (int a = 1;a < 10; a++) {
+		b = 7 * a;
+		printf("7 * %d = %d\n", a, b);
+
 	}
 }
+
