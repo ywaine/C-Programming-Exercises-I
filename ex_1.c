@@ -1,3 +1,5 @@
+/*Print even no btw 0 to 100*/
+
 #include <stdio.h>
 
 int main() {
@@ -6,6 +8,7 @@ int main() {
 	{
 		if (i % 2 == 0) {
 			printf("%d\n", i);
+
 		}
 	}
 	return 0;
