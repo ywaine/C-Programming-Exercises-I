@@ -2,7 +2,14 @@
 
 int main()
 {
-    printf("Hello World");
-
-    return 0;
+	int i;
+	int j;
+	int ans;
+	for (i = 0; i < 10; i++) {
+		for (j = 0; j < 10; j++) {
+			ans = j * 10 + i;
+			printf("%d ", ans);
+		}
+		printf("\n");
+	}
 }
