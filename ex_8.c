@@ -1,5 +1,6 @@
 /*8. Print only the 20 smallest prime numbers*/
 #include <stdio.h>
+
 void main()
 {
 	for (int i = 1, c = 0 ; i < 100; i++)
@@ -16,4 +17,6 @@ void main()
 				//printf("");
 				break;
 			}
-
+		}
+	}
+}
