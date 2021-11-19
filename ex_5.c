@@ -1,6 +1,6 @@
 /*5. Find the number which is a 5digit number (10,000 - 99,999) which is satisfies that (100,000 + a)*3 = a*10 + 1*/
 #include <stdio.h>
-#include <string>
+#include <string.h>
 
 unsigned concatenate(unsigned x, unsigned y) {
 	unsigned pow = 10;
@@ -15,8 +15,7 @@ int main()
 		int d = a * 3; //3 times a
 		if (concatenate(a, 1) == concatenate(1, a) * 3)
 		{
-			printf("The number : ", a);
-			printf("%d", a);
+			printf("The number : %d", a);
 		
 		}
 
