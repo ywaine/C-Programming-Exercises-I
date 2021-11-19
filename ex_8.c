@@ -1,37 +1,22 @@
+/*8. Print only the 20 smallest prime numbers*/
 #include <stdio.h>
 
 void main()
 {
-    //create all prime numbers 
-    //declare i to keep track of loop,
-    int i;
-    //declare array
-    int primeNumbers[25];
-    printf("PrimNumbers:\n");
-    for (i = 0; i < 100; i++) {
-        //conditional: if i/2 has a reminder it is a prime number
-        // put them into an array
-        if (i % 2 > 0) {
-            primeNumbers[i] = i;
-            printf("%d\n", i);
-        }
-    }
+	for (int i = 1, c = 0 ; i < 100; i++)
+	{
+		//int c = 0;
 
-    printf("Smallest 20 Prime Numbers:\n");
-
-    //use one variable to sort
-    int hold = 999;
-    int k;
-    int j;
-    for (k = 1; k < 10; k++) {
-        for (j = 24; j > -1; j--) {
-            if (primeNumbers[j] < hold) {
-                hold = primeNumbers[i];
-                printf("%d\n", primeNumbers[j]);
-            }
-
-        }
-    }
-
-
+		for (int j = 2; j <= i; j++)   // Changed upper bound
+		{
+			if (i == j && c < 20) {  // Changed condition and reversed order of if:s
+				c = c + 1;
+				printf("%d\n", i);
+			}
+			else if (i % j == 0) {
+				//printf("");
+				break;
+			}
+		}
+	}
 }
