@@ -1,3 +1,4 @@
+/*3. Print integer from 0 to 99 as shown the Ex3*/
 #include <stdio.h>
 //Adding comments
 	//main method returns an integer value
