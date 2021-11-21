@@ -1,4 +1,4 @@
-/*Print even no btw 0 to 100*/
+/*1. Print even no btw 0 to 100*/
 
 #include <stdio.h>
 //Adding comments
