@@ -1,4 +1,4 @@
-/*Print common multiples of 3 and 4 btw 0 to 100*/
+/*2. Print common multiples of 3 and 4 btw 0 to 100*/
 #include <stdio.h>
 //Adding comments
 	//main method returns an integer value
