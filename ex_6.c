@@ -12,9 +12,12 @@ int main()
 		{
 			printf("        1");
 		}
-		else if (d == 5 || d % 7 ==5) {
+		else if (d == 5) {
 			printf(" %2d\n", d);
-      }
+		}
+		else if (d % 7 == 5) {
+			printf(" %2d\n", d);
+		}
 		else {
 			printf(" %2d", d);
 		}
